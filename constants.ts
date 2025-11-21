@@ -1,5 +1,8 @@
 
 import { BoardNode, CategoryType, Translations } from './types';
+import { APP_CONFIG } from './config';
+
+export { APP_CONFIG };
 
 export const TEXTS: Translations = {
   setupTitle: { da: 'Trivial Pursuit Opsætning', en: 'Trivial Pursuit Setup' },
